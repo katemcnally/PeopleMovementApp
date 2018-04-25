@@ -1,7 +1,12 @@
-# GW CS Senior Design Project Template
+# GW CS Senior Design Project
 
-Use the master branch of this repository for your **working** code.  You should use the [Feature Branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) or [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) structure for your code and branches.
+People Movement
 
-The gh-pages branch of this repository has starter files for your web page. You should upload PDF versions of all your assignments and keep your web page up to date.
+Backend Firebase Functions
+- holds k8dbscan clustering algorithm
+- database implementation
+- follow README in firebase to run
 
-**Once you understand the structure listed above, you should replace this readme with something specific to your project.**
+Frontend Andriod Studio
+- holds rerouting algorithm
+- app implementation
