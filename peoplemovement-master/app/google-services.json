@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739216185494",
+    "firebase_url": "https://testproject-179117.firebaseio.com",
+    "project_id": "testproject-179117",
+    "storage_bucket": "testproject-179117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739216185494:android:178d8261fb30a178",
+        "android_client_info": {
+          "package_name": "com.example.shakedrotlevi.peoplemovementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739216185494-oti4j93mbob794gvfpl3bcmpput6elaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shakedrotlevi.peoplemovementapp",
+            "certificate_hash": "dd161488822c18fad2bf38c438d5c66bb94aa286"
+          }
+        },
+        {
+          "client_id": "739216185494-d2be5885n490rrodpp00bj655ou1hjdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd2c6IrlqqBfXoe10uXpRKotU6ONEMo4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739216185494-d2be5885n490rrodpp00bj655ou1hjdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

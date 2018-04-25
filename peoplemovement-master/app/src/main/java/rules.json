@@ -1,0 +1,9 @@
+//PUBLIC RULES
+//TODO: Need to be changed to private once auth is set up
+
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}

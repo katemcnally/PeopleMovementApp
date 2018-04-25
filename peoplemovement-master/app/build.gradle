@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.example.shakedrotlevi.peoplemovementapp"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+        //  resValue "string", "google_maps_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.0.2'
+    implementation 'com.android.support:design:26.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-vector-drawable:26.0.2'
+    //implementation 'com.google.android.gms:play-services-maps:11.2.2'
+    implementation 'com.google.firebase:firebase-database:11.0.4'
+    //compile 'com.google.firebase:firebase-core:11.0.4\''
+    implementation 'com.google.firebase:firebase-messaging:11.0.4'
+    testImplementation 'junit:junit:4.12'
+
+
+    compile 'com.firebaseui:firebase-ui-auth:3.1.0'
+    // Required only if Facebook login support is required
+    compile('com.facebook.android:facebook-android-sdk:4.27.0')
+    compile("com.twitter.sdk.android:twitter-core:3.0.0@aar") { transitive = true }
+
+    compile 'com.android.support:appcompat-v7:26.0.2'
+    //compile 'com.google.android.gms:play-services:10.+' // Add this line
+
+
+    compile 'com.google.android.gms:play-services:11.6.0'
+
+
+    compile 'com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0'
+
+
+
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.google.maps.android:android-maps-utils:0.4+'
+
+
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        compile 'com.android.support:multidex:1.0.1'
+    })
+}
+
+
+
+
+apply plugin: 'com.google.gms.google-services'
